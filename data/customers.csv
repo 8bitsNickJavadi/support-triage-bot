@@ -1,0 +1,6 @@
+customer_id,name,email,tier,balance,product
+1,Jane Smith,jane@example.com,Gold,120,Pro
+2,John Doe,john@example.com,Silver,75,Starter
+3,Alice Johnson,alice@example.com,Platinum,250,Enterprise
+4,Bob Wilson,bob@example.com,Bronze,30,Basic
+5,Carol Davis,carol@example.com,Gold,180,Pro

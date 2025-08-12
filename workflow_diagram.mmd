@@ -1,0 +1,13 @@
+%% workflow_diagram.mmd
+flowchart TD
+    A[start] -->|Initialize State| B[ingest_faq]
+    B --> C[classify]
+    C --> D[enrich]
+    D --> E[retrieve]
+    E --> F[draft]
+    F --> G{approval}
+    
+    G -->|approve| H((End))
+    G -->|revise| I[revise]
+    I --> G
+    G -->|revisions >= 3| H
